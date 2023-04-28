@@ -1,0 +1,39 @@
+img {
+    margin: auto;
+    display: block;
+    width: 1500px;
+    height: 950px;
+  }
+   
+  .images-slideshow {
+    width: 1500px;
+    position: relative;
+    margin: auto;
+  }
+   
+  .slider-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 8px 16px;  
+    transition: 0.6s ease;
+    user-select: none;
+    background-color: white;
+    border-radius: 50%;
+  }
+   
+
+  .previous {
+    left: 5%;
+  }
+  .next {
+    right: 5%;
+  }
+   
+  .previous:hover,
+  .next:hover {
+    color: white;
+    background-color: black;
+  }
+  
